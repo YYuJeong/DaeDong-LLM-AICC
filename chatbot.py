@@ -58,7 +58,7 @@ def main():
     # 페이지 설정
     st.set_page_config(page_title="대동 AICC 도움이", layout="wide", page_icon="🤖")
 
-    st.image('Cute_Robot_Tractor_with_Label.png', width=1200)
+    st.image('Cute_Robot_Tractor_with_Label.png', width=600)
     st.markdown('---')
     st.title("안녕하세요! '대동 AICC 도움이' 입니다")  # 시작 타이틀
 
