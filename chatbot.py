@@ -5,12 +5,10 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import FAISS
 from langchain.chat_models import ChatOpenAI
 from langchain.document_loaders import PyPDFLoader
-from langchain_community.chat_message_histories import ChatMessageHistory
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain.tools.retriever import create_retriever_tool
 from langchain.prompts import ChatPromptTemplate
 from langchain.agents import create_tool_calling_agent, AgentExecutor
-from dotenv import load_dotenv
 
 # .env 파일 로드
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
